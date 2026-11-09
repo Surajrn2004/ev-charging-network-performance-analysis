@@ -10,7 +10,7 @@ The objective is to understand charging network usage, compare recorded charging
 
 ## Business Problem
 
-How can an EV charging network better understand charging usage, recorded charging costs, and energy demand across different locations and user segments?
+"How can the EV charging network optimize infrastructure placement, pricing strategies, and power utilization to maximize revenue while improving service availability across different cities and user demographics?"
 
 ## Project Objectives
 
