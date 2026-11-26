@@ -33,7 +33,7 @@ Data Source- https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-char
 
 ## Dashboard Preview
 
-EV_charging_dashboard.png
+https://github.com/Surajrn2004/ev-charging-network-performance-analysis/blob/a8bdd75de03256d081c9e867e8765063034f6fd8/EV_charging_dashboard.png
 
 ## Dashboard and Analysis
 I built the dashboard in WPS Spreadsheet using PivotTables, PivotCharts, formulas and slicers.
