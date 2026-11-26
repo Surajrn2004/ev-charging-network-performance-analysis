@@ -1,6 +1,6 @@
 # EV Charging Network Performance Analysis
 
-An Excel-based data analytics project exploring electric vehicle charging sessions, charging costs, energy consumption, and usage patterns across multiple US cities.
+An AI based Excel data analytics project exploring electric vehicle charging sessions, charging costs, energy consumption, and usage patterns across multiple US cities.
 
 ## Project Overview
 
@@ -29,30 +29,52 @@ The objective is to understand charging network usage, compare recorded charging
 - KPI summaries
 - Interactive slicers and dashboard visualization
 
+Data Source- https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns
+
 ## Dashboard Preview
 
 <img width="1052" height="677" alt="image" src="https://github.com/user-attachments/assets/403b5aa9-e052-4b6a-bc4d-aea0b9c1055c" />
 
+## Dashboard and Analysis
+I built the dashboard in WPS Spreadsheet using PivotTables, PivotCharts, formulas and slicers.
 
-## Repository Structure
+## Key Performance Indicators
+The dashboard starts with three summary metrics:
 
-The repository will contain the final Excel workbook, dashboard screenshots .
+Total Charging Sessions-1,320
+Total Recorded Charging Cost-$29,767.78
+Total Energy Consumed-56,339.21 kWh
 
-## Dataset Information
+## Dashboard Visualizations
 
-- **Dataset:** Electric Vehicle Charging Patterns
-- **Source:** Kaggle
-- **Records:** 1,320 charging sessions
+The dashboard contains six analytical views:
+1.Charging Demand by Time of Day – Compares charging sessions across morning, afternoon, evening and night.
+2.Charging Cost by City – Compares the total recorded charging cost across the five cities.
+3.Energy Share by Charger Type – Shows the distribution of energy consumption across Level 1, Level 2 and DC Fast Chargers.
+4.Charging Sessions by Day of Week – Compares the recorded session counts across weekdays.
+5.Charging Cost by User Type – Compares charging costs across Commuters, Casual Drivers and Long-Distance Travelers.
+6.Sessions by EV Model – Ranks vehicle models by their number of recorded charging sessions.
 
-This is a US-based dataset, not an India-specific dataset.
+## Interactive features
+I added slicers for:
+1. Charging Station Location
+2. User Type
+   
 
-## Project Documentation
+## Key Findings
 
-Detailed documentation will be provided in the `documentation/` folder:
-
-- `data_cleaning.md` – Data quality checks and cleaning process.
-- `business_questions.md` – Business problem and analytical questions.
-- `key_findings.md` – Analytical findings, insights, and recommendations.
+A few results stood out while exploring the dataset.
+Los Angeles had the highest total recorded charging cost.
+It recorded approximately $6,694.81, the highest among the five cities.
+Commuters accounted for the largest share of recorded charging costs.
+Their total was approximately $10,829.99, followed by Long-Distance Travelers and Casual Drivers.
+Energy consumption was fairly evenly distributed across charger types.
+1. Level 2: 34.49%
+2. Level 1: 33.94%
+3. DC Fast Charger: 31.57%
+There was no single charger type overwhelmingly dominating total energy consumption.
+Tesla Model 3 had the highest session count.
+It appeared in 280 charging sessions, followed by Hyundai Kona with 266 and Nissan Leaf with 260.
 
 ## How to Explore
 
@@ -60,8 +82,4 @@ Detailed documentation will be provided in the `documentation/` folder:
 2. Open it using Microsoft Excel or compatible spreadsheet software.
 3. Navigate to the Dashboard sheet.
 4. Use the available slicers to explore the dashboard interactively.
-
----
-
-**Project Type:** Data Analytics | Excel Dashboard
 
