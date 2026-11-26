@@ -1,6 +1,6 @@
 # EV Charging Network Performance Analysis
 
-An AI based Excel data analytics project exploring electric vehicle charging sessions, charging costs, energy consumption, and usage patterns across multiple US cities.
+An AI assisted Excel-based data analytics project exploring electric vehicle charging sessions, charging costs, energy consumption, and usage patterns across multiple US cities.
 
 ## Project Overview
 
@@ -33,7 +33,7 @@ Data Source- https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-char
 
 ## Dashboard Preview
 
-<img width="1052" height="677" alt="image" src="https://github.com/user-attachments/assets/403b5aa9-e052-4b6a-bc4d-aea0b9c1055c" />
+EV_charging_dashboard.png
 
 ## Dashboard and Analysis
 I built the dashboard in WPS Spreadsheet using PivotTables, PivotCharts, formulas and slicers.
